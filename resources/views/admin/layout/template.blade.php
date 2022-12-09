@@ -107,7 +107,7 @@
            </a>
          </li>
          <li class="dropdown-divider"></li>
-         <a href="{{route('logout')}}"><li class="dropdown-item"><i class="icon-power mr-2"></i> Keluar</li></a>
+         <a href="{{route('admin.logout')}}"><li class="dropdown-item"><i class="icon-power mr-2"></i> Keluar</li></a>
        </ul>
      </li>
    </ul>

@@ -27,7 +27,7 @@
                 <th class="col-md-3">NIS</th>
                 <th class="col-md-3">Email</th>
                 <th class="col-md-4">Nama</th>
-                <th class="col-md-3">Password</th>
+                {{-- <th class="col-md-3">Password</th> --}}
                 <th class="col-md-2">Kelas</th>
                 <th class="col-md-2">Jenis Kelamin</th>
                 <th class="col-md-2">Aksi</th>
@@ -47,13 +47,13 @@
                 <td>{{ $item->nama }}</td>
                 {{-- <td>{{ $item->password }}</td> --}}
                 {{-- yg jd titik --}}
-                 <td> <div class="mb-3 row">
+                 {{-- <td> <div class="mb-3 row">
                     <div class="col-sm-10">
                         <input type="password" name="password" value="{{ $item->password }}" id="password" class="form-control input-shadow" disabled>
                         <div class="form-control-position">
                         </div>
                      </div>
-                    </div></td>
+                    </div></td> --}}
                 <td>{{ $item->kelas }}</td>
                 <td>{{ $item->jenis_kelamin }}</td>
                 <td>
