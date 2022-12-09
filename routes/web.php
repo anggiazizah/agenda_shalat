@@ -32,8 +32,11 @@ use App\Http\Middleware\Siswa;
 |
 */
 
-Route::get('/', function () {
-    return view('login');
+Route::get('/', [LoginController::class, 'index'])->name('login');
+Route::get('logout', function() {
+    Auth::logout();
+
+    return redirect('/');
 });
 
 // Route::get('/login', function () {

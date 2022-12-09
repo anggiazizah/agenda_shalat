@@ -14,6 +14,13 @@ class LoginController extends Controller
     // {
     //     $this->middleware('auth');
     // }
+    public function index()
+    {
+        if(Auth::check()) {
+            return back();
+        }
+        return view('login');
+    }
     
    public function PostLogin(Request $request)
    {
