@@ -32,7 +32,6 @@
 		 		<img src="assets/images/logo-smk.png" wight="125" height="125" alt="logo icon">
 </div>
 		  <div class="card-title text-uppercase text-center py-3">Masuk</div>
-      <br>
       <form action="{{ route('postlogin') }}" method="POST">
         @csrf
       <div class="form-group">
@@ -53,9 +52,8 @@
 				  </div>
 			   </div>
 			  </div>
-        <br>
         <div class="card-footer text-center py-3">
-        <button type="submit" class="btn btn-outline-info">Masuk</button>
+        <button type="submit" class="btn btn-primary my-3">Masuk</button>
 		  </div>
 			 </form>
 		   </div>
